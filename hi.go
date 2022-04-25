@@ -9,4 +9,8 @@ func main() {
 	} else {
 		fmt.Println("hello")
 	}
+
+	for i := range []int{1, 2, 3} {
+		fmt.Println(i)
+	}
 }
